@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 240, 240);
+}
+
+header {
+    background-color: rgba(44, 62, 80);
+    color: rgba(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(52, 73, 94);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+section {
+    background-color: rgba(255, 255, 255);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 900px;
+
+    border: 2px solid rgba(220, 221, 225);
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+}
+
+h2 {
+    color: rgba(44, 62, 80);
+}
+
+h3 {
+    color: rgba(52, 73, 94);
+}
+
+ul {
+    line-height: 1.6;
+}
